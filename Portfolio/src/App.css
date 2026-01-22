@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.loader-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+}
+h1{
+    color: red;
+}

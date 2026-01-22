@@ -1,0 +1,67 @@
+/* Base (semantic roles only) */
+:root {
+  /* Backgrounds */
+  --bg-primary: var(--color-bg-900);
+  --bg-secondary: var(--color-bg-800);
+
+  /* Accents */
+  --accent-primary: var(--color-accent-500);
+  --accent-secondary: var(--color-accent-700);
+
+  /* Text */
+  --text-primary: var(--color-text-300);
+  --text-heading: var(--color-text-100);
+
+  /* UI */
+  --button-bg: var(--accent-primary);
+  --button-text: var(--color-text-on-accent);
+  --border-color: var(--accent-secondary);
+}
+
+@font-face {
+            font-family: 'orb';
+            /* Note: If this local path fails, the Google Font above will take over */
+            src: url('/K69/src/assets/font/Orbitron-VariableFont_wght.ttf');
+        }
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--accent-primary);
+}
+@font-face {
+    font-family: "orb";
+    src: url('./src/assets/font/Orbitron-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "gilroy";
+    src: url(./src/assets/font/Gilroy-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 100px;
+    font-family: gilroy;
+    color:var(--accent-primary)
+}
+h2{
+    font-size: 160px;
+    font-family: orb,gilroy;
+
+}
